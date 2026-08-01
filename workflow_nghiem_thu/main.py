@@ -95,7 +95,7 @@ def main():
             run_single_pipeline()
 
             # Giảm tần suất cào: Nghỉ 18 - 21 phút (1100s - 1300s) vừa an toàn vừa tiết kiệm tài nguyên
-            sleep_seconds = random.randint(1100, 1300)
+            sleep_seconds = random.randint(120, 150)
             next_run = datetime.now() + timedelta(seconds=sleep_seconds)
             
             print(f"⏰ Lần cập nhật tiếp theo (UTC): {next_run.strftime('%H:%M:%S')}")
