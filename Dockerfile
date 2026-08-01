@@ -12,4 +12,4 @@ ENV PORT=10000
 EXPOSE 10000
 
 # Dùng CMD để vừa chạy http.server báo port cho Render, vừa chạy main_all.py
-CMD ["python", "-u", "workflow_su_co/main.py"]
+CMD ["python", "-u", "workflow_nghiem_thu/main.py"]
